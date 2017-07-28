@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDemo", "ARDemo\ARDemo.csproj", "{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Release|iPhone.Build.0 = Release|iPhone
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D06D05E3-9EE3-456C-BA08-E0FB6DF2ADF3}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
