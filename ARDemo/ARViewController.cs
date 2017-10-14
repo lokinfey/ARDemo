@@ -10,7 +10,7 @@ namespace ARDemo
 	{
 		ARSCNView arSCNView;
 		ARSession arSession;
-		ARSessionConfiguration arSessionConfig;
+        ARConfiguration arSessionConfig;
 
   //      public ARViewController() // : base("ARViewController", null)
   //      {
@@ -29,8 +29,13 @@ namespace ARDemo
 		public override void ViewWillAppear(bool animated)
 		{
 			base.ViewWillAppear(animated);
+            //ARWorldTrackingSessionConfiguration config;// = new A
+            //ARWorldTrackingSessionConfiguration
+            ARWorldTrackingConfiguration config = new ARWorldTrackingConfiguration();
+            //ARWorldTrackingSessionConfiguration config = new ARWorldTrackingSessionConfiguration{
 
-			ARWorldTrackingSessionConfiguration config = new ARWorldTrackingSessionConfiguration();
+
+            //};
 			config.PlaneDetection = ARPlaneDetection.Horizontal;
 			arSessionConfig = config;
 			arSessionConfig.LightEstimationEnabled = true;
@@ -42,7 +47,7 @@ namespace ARDemo
 			arSCNView.Session = arSession;
 			arSCNView.AutomaticallyUpdatesLighting = true;
 			View.AddSubview(this.arSCNView);
-			arSession.Run(this.arSessionConfig);
+            arSession.Run(this.arSessionConfig,ARSessionRunOptions.RemoveExistingAnchors);
 
 
 

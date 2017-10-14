@@ -12,7 +12,7 @@ namespace ARDemo
 
 		ARSCNView arSCNView;
 		ARSession arSession;
-		ARSessionConfiguration arSessionConfig;
+		//ARSessionConfiguration arSessionConfig;
 
 
 
